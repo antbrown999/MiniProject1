@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(193, 33, 225); padding-right: 15px; padding-left: 15px;
+    outline: black;
+}
+.navdiv {
+    display: flex; align-items: center; justify-content: space-between; 
+}
+.logo a{
+    font-size: 35px; font-weight: 500; color: white; align-items: left;
+}
+.logo {
+    align-items: left;
+    display: flex;
+}
+li {
+    list-style: none; display: inline-block;
+}
+li a {
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button {
+    background-color: turquoise; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+body {
+    background: linear-gradient(45deg, #a547b1,#f84298) center;
+    background-size: 100vw, 100vh;
+}
