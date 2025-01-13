@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW$y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Frontend/Signup Page/index.css">
+   
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+        <li><div class="navdiv">
+          <div class="logo"><i><a href="/Frontend/Home Page/home.html">Feminella</a></i></div></div>
+    </nav>
+    <section class="main">
+        <div class="form_wrapper">
+            <input type="radio" class="radio" name="radio" id="login" checked />
+            <input type="radio" class="radio" name="radio" id="signup"/>
+            <div class="social-container">
+                <a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://myaccount.google.com" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.linkedin.com/home" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+              <div class="tile">
+                <h3 class="login">Login</h3>
+                <h3 class="signup">Signup</h3>
+              </div>
+        </div>
+
+        <label class="tab login_tab" for="login">Login</label>
+
+        <label class="tab signup_tab" for="signup">Signup</label>
+        <span class="shape"></span>
+        <div class="form_fild
+        login_form">
+            <div class="input_group">
+                <input type="email" class="input" placeholder="Email Address"/>
+            </div>
+            <div class="input_group">
+                <input type="password" class="input" placeholder="Password"/>
+            </div>
+
+            <a href="#forgot" class="forgot">Forgot password?</a>
+
+            <input type="submit" class="btn" value="Login"/>
+
+            <div class="not_mem">
+                <label for="signup">Not a member?<span>Signup Now</span></label>
+            </div>
+
+        </div>
+
+        <div class="form_fild signup_form">
+            <div class="input_group">
+                <input type="email" class="input" placeholder="Email Address"/>
+            </div>
+            <div class="input_group">
+                <input type="password"
+                class="input" placeholder="Password">
+            </div>
+             
+            <div class="input_group">
+                <input type="password" class="input" placeholder="Confirm Password"/>
+            </div>
+
+            <input type="submit" class="btn" value="Signup">
+        </div>
+        </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
